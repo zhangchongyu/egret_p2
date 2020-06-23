@@ -1,0 +1,38 @@
+{
+  "engineVersion": "5.2.29",
+  "compilerVersion": "5.2.29",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "physics",
+      "path": "./libs/physics"
+    }
+  ],
+  "targets": {
+    "android": {
+      "appname": "自制弹球",
+      "packagename": "PhysicalMarbles"
+    }
+  }
+}

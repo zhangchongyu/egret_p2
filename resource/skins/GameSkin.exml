@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSkin" width="600" height="1133" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect fillColor="0xffffff" left="0" right="0" top="0" bottom="0"/>
+	<e:Label id="lbl_time" text="12:00:00" horizontalCenter="0" top="27" textColor="0x000000" visible="false"/>
+	<e:Label id="L1" text="Guide rotation: " x="40.5" y="116" textColor="0x000000" size="20" visible="false"/>
+	<e:Label id="L2" text="Guide height:" x="40.5" y="136" textColor="0x000000" size="20" visible="false"/>
+	<e:Label id="L3" text="e.stageX:" x="40.5" y="156" size="20" textColor="0x000000" visible="false"/>
+	<e:Label id="L4" text="e.stageY" x="40.5" y="176" textColor="0x000000" size="20" visible="false"/>
+	<e:Label id="L5" text="Label" x="40.5" y="196" size="20" textColor="0x000000" visible="false"/>
+	<e:Label id="L6" text="Label" x="40.5" y="216" textColor="0x000000" size="20" visible="false"/>
+	<e:Button id="reset" label="重置" x="479" y="20" visible="false"/>
+	<e:Rect id="rect_arrow" width="10" height="100" x="70" y="444" fillColor="0x494444" anchorOffsetX="5" anchorOffsetY="100" alpha="0.4" rotation="0" scaleY="1"/>
+	<e:Label id="L7" text="Label" x="40.5" y="236" textColor="0x000000" size="20" visible="false"/>
+	<e:Label id="L8" text="Label" x="40.5" y="256" textColor="0x000000" size="20" visible="false"/>
+	<e:Rect id="center" width="80" height="80" x="300" y="900" anchorOffsetY="40" anchorOffsetX="40" ellipseHeight="180" ellipseWidth="180" fillColor="0x000000" alpha="0.5"/>
+	<e:Rect id="direction" width="80" height="80" x="399" y="860" anchorOffsetX="40" anchorOffsetY="40" alpha="0.5" ellipseHeight="180" ellipseWidth="180"/>
+	<e:Rect id="deep_center" width="40" height="40" x="300" y="900" anchorOffsetX="20" anchorOffsetY="20" alpha="0.5" ellipseHeight="180" ellipseWidth="180"/>
+</e:Skin>
